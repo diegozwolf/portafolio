@@ -6,7 +6,7 @@
 }*/
 header{
   text-align: center;
-  background: url('http://widewallpaper.info/wp-content/uploads/2016/01/flat-wallpaper.png');
+  background-image: url('../img/flatwall.png');
   background-size: cover;  
   color: white;
 }
