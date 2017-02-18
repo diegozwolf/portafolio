@@ -1,0 +1,429 @@
+*{ box-sizing: border-box; }
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background: #F5F5F5;
+	color: #67727A;
+	font-family: 'Alegreya', sans-serif;
+	margin:0;
+}
+h2 {
+	font-size: 250%;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 2%;
+	color: #F5F5F5;
+
+}
+h3 {
+	font-size: 175%;
+	line-height: 155%;
+	padding: 5% 0;
+	font-weight: 400;
+	color: #F5F5F5;
+}
+
+p {
+	font-family: 'Alegreya', sans-serif;
+	color: #F5F5F5;
+	font-size: 100%;
+	line-height: 150%;
+	padding: 3%;
+	
+	text-align: justify;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin-bottom: -4px;
+}
+a{
+	text-decoration: none;
+}
+header {
+	background-color: #263238;
+	width: 100%;
+	height: 86px;
+	position: absolute;
+}
+#header-inner {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#logo {
+	margin:10px;
+    float: left;
+	width: 200px;
+	height: 60px;
+	background: url(img/DZ.png) no-repeat center;
+}
+/*nav bar styles*/
+
+nav{
+	float:right;
+	padding: 25px 20px 0 0;
+}
+#menu-icon {
+	display:hidden;
+	width: 40px;
+	height: 40px;
+	background: url(img/nav.png) center;
+}
+a:hover#menu-icon {
+	border-radius: 4px 4px 0 0;
+}
+ul {
+	list-style: none;
+}
+
+nav ul li {
+	font-size: 150%;
+	font-family: 'Alegreya Sans', sans-serif;
+	display: inline-block;
+	float: left;
+	padding: 10px;	
+}
+
+nav ul li a {
+	color: #F5F5F5;
+	text-decoration: none;	
+}
+
+nav ul li a:hover{
+	color: #29b6f6;
+}
+.current {
+	color:#29b6f6;
+}
+
+/*banner*/
+
+.banner {
+	width: 100%;
+	height: 600px;
+	background:url('img/flatwall.png');
+	background-size: cover;
+	top: 0;
+	text-align: center;
+}
+.banner-inner {
+	max-width: 1100px;
+	margin: 0 auto;
+	
+}
+.fprofile {
+	width: 200px
+	height: 200px;
+	border-radius: 50%;
+	margin-top: 15%;
+	margin-bottom: 10px;
+}
+.name-title{
+	color:#F5F5F5;
+	margin-top: 5px;
+	padding: 1px;
+}
+.text-intro {
+	text-align: center;
+	padding:  10px;
+}
+.one-fourth {
+	width: 33.3333%;
+	float: left;
+	text-align: center;	
+}
+#skills{
+	background-color: #455a64;	
+}
+#section-title {
+	background-color: #263238;
+	color: #29b6f6;
+	font-size: 160%;
+	text-align: center;
+	padding: 0.5%;
+	margin-bottom: 2px;
+}
+.section-description {
+	max-width: 75%;
+	text-align: center;
+	margin:0 auto;
+	font-size: 120%;
+	padding: 20px;	
+}
+#developt, #estructure,  #design{
+	background-color: #455a64;
+}
+
+.one-fourth i {
+	color: #29b6f6;;
+	font-size: 500%;
+	padding: 13% 0 4% 0;
+}
+.inner-wrapper {
+	float:left;
+	width:100%;
+	background-color: #b0bec5;
+}
+
+article {
+	float:left;
+	margin: 0 auto;
+	width: 50%;
+	margin-top: 5%;
+	text-align: center;
+}
+#tablet {
+	background-color: #C3D7DF;
+}
+aside {
+	float: right;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+}
+#tablet2 {
+	margin-top: 30px;
+}
+#mobile {
+
+}
+#desktop {
+	
+}
+
+.inner-wrapper-2 {
+	float: left;
+	width: 100%;
+	background-color:#81d4fa;
+
+}
+.inner-wrapper-3 {
+	float: left;
+	width: 100%;
+	background-color: #AADCDF;
+}
+
+.one-third {
+	width: 33.3333333%;
+	float: left;
+	text-align: center;
+	padding: 5%;
+}
+
+.contact-text{
+	text-align: center;	
+}
+.icon-contact {
+	font-size: 40px;
+	padding: 5px;
+	padding: 5% 5% 5% 4%;
+	color: #F5F5F5;
+}
+
+#google {
+	background-color: #ff7043;
+}
+#marketing {
+	background-color:#009688;
+}
+#customers {
+	background-color: #4527a0;
+}
+
+
+/*footer*/
+
+footer {
+	background-color: #6991AC;
+	width: 100%;
+}
+.social {
+	list-style-type: none;
+	text-align: center;
+}
+
+.social li {
+	display: inline;
+}
+.social i{
+	font-size: 40px;
+	margin: 1%;
+	padding: 5% 5% 5% 4%;
+	color: #C3D7DF;
+}
+.social i:hover {
+	color: #F5F5F5;
+}
+footer.second {
+	border-top: 1px solid #AADCD2;
+	background-color: #544B59;
+	max-height: 55px;	
+	margin: 0;
+}
+footer.second p {
+	padding: 5px 0 9px 0;
+	text-align: center;	
+}
+
+
+/*==========Media querys=========*/
+@media screen and (max-width: 760px) {
+	h2 {
+		font-size: : 150%;
+	}
+	h3 {
+		font-size: 125%;
+	}
+	p {
+		font-size: 120%;
+	}
+	header {
+		position: absolute;
+	}
+	#logo {
+		margin: 15px 0 20 -25px;
+		background: url(img/DZmobile.png) no-repeat center;
+	}
+	#menu-icon {
+		display: inline-block;
+	}
+	nav ul, nav:active ul{
+		display: none;
+		z-index: 1000;
+		position: absolute;
+		padding: 20px;
+		background: #263238;
+		right: 20px;
+		top: 60px;
+		border: 1px solid #FFF;
+		border-radius: 10px 0 10px 10px;
+		width: 50%;
+	}
+	nav:hover ul {
+		display: block;
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+	}
+	.banner {
+		padding-top: 86px;
+	}
+	.one-fourth {
+		float: left;
+		width: 100%;
+	}
+	.one-fourth i {
+		font-size: 350%;
+		padding: 4% 01% 0;
+	}
+	article {
+		width: 100%;
+	}
+	aside {
+		width: 100%;
+	}
+	.hand-mobile {
+		display: none;
+	}
+	.one-third {
+		width: 100%;
+	}
+	.social i {
+		font-size: 200%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

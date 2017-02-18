@@ -1,102 +1,140 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> 
 <head>
-	<script src="https://use.fontawesome.com/23ee718fb1.js"></script>
-	<script type="text/javascript" src="/js/jQuery.min.js"></script>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
-	<meta charset="UTF-8">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Diego Zuluaga Portafolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />	
+	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	<link rel="shortcut icon" type="image/png" href="img/dfavicon.png"/>
+	<script src="https://use.fontawesome.com/a333ede124.js"></script>
 </head>
 <body>
-	<header class="frontend">
-	<a href="index.html"><img class="fportada" src="img/dz.jpg" alt="Foto Diego Zuluaga" ></a>
-	<h1>Diego Zuluaga</h1>
-	<p>!Hola! soy Diego, <strong>Desarrollador Front end </strong>y Diseñador colombiano.</p>	
-	<ul>		
-		<li><a href="#habilidades"> Habilidades</a></li>
-		<li><a href="#proyectos"> Proyectos</a></li>
-		<li><a href="#contacto"> Contacto</a></li>
-	</ul>
+	<header>
+		<div id="header-inner">
+			<a href="#" id="logo"></a>	
+			<nav>
+				<a href="#" id="menu-icon"></a>
+				<ul>
+					<li><a href="index.html" class="current">Home</a></li>
+					<li><a href="#skills">Habilidades</a></li>
+					<li><a href="#projects">Proyectos</a></li>			
+					<li><a href="#contact">Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
 	</header>
-	<section id="habilidades">
-		<h2 class="blue-title">HABILIDADES</h2>
-		<p >He podido desarrollar diferentes habilidades enfocadas a los proyectos web, aplicándolos a proyectos multidisciplinares, haciendo una gran experiencia para los usuarios y estas son mis habilidades:</p>
-		<div class="box">
-			<img src="img/icon skill-02.png" alt="Web Design">
-			<h3>Desarrollo web</h3>
-			<p>Modelado de datos por medio de Hmtl5, diseño e interacción por medio de css3 y javascript manejo de backend entre otros.</p>
-		</div>
-		<div class="box">
-			<img src="img/icon skill-01.png" alt="web devevelopment">
-			<h3>Maquetación</h3>
+	<section class="banner">
+		<a href="index.html"><img class="fprofile" src="img/dz.jpg" alt="Foto Diego Zuluaga" ></a>
+		<h2 class="name-title">DIEGO ZULUAGA</h2>
+		<p class="text-intro">!Hola! soy Diego, <strong>Desarrollador Front end </strong>y Diseñador colombiano.</p>	
+	</section>
+
+	<section id="skills">
+		<div class="description-section">
+			<h3 id="section-title">HABILIDADES</h3>
+			<p class='section-description'>Habilidades enfocadas a los proyectos web, aplicándolos a proyectos multidisciplinares, haciendo una gran experiencia para los usuarios </p>
+			<section class="one-fourth" id="developt">
+			<div class="skills-tables"><i class="fa fa-file-code-o"></i></div>
+			<h3>DESARROLLO WEB</h3>
+		    <p>Modelado de datos por medio de Hmtl5, diseño e interacción por medio de css3 y tecnologías relacionadas a javascript.</p>
+		</section>
+		<section class="one-fourth" id="estructure">
+			<div class="skills-tables"><i class="fa fa-address-card-o"></i></div>
+			<h3>MAQUETACIÓN</h3>
 			<p>Uso de herramientas y metodologias como mockups y wireframes, para el diseño web atractivo e intuitivo para el usuario.</p>
-		</div>
-		<div class="box">
-			<img src="img/icon skill-03.png" alt="Ux and Ui">
-			<h3>Diseño</h3>
-			<p>Domino diversas herramientas de diseño para construir productos digitales pensando en la interface y la experiencia de usuario.</p>
-		</div>
+		</section>
+		<section class="one-fourth" id="design">
+			<div class="skills-tables"><i class="fa fa-pencil-square-o"></i><div>
+			<h3>DISEÑO</h3>
+			<p>Uso de herramientas de diseño para construir productos digitales pensando en la interface y la experiencia de usuario.</p>
+		</section>		
+		</div>		
 		
 	</section>
-	<section id="proyectos">
-		<div class="contenido-destacado">
-		<h2>PROYECTOS DESTACADOS:</h2>
-		<p>Por medio de la página web de Link para emprender la organización Ahmsa Colombia, realizó la inscripción y convocatoria de más de 40 personas que  participaron en este concurso de emprendimiento. En este evento se reunieron emprendedores y personas de comunidades vulnerables de altos de Cazucá  y  formaron equipos mixtos para proponer ideas de negocio de alto impacto social.</p>	
-	</div>
-	<div class="container">
-		<h3 class="blue-title">link para emprender:</h3>
-		<a href="https://diegozwolf.github.io/linkemprenderbogota/"  target="_blank">
-			<img class="proyects-img" src="img/link.jpg" alt="Web Design">
-		</a>		
-		<p>Por medio de la página web de Link para emprender la organización Ahmsa Colombia, realizó la inscripción y convocatoria de más de 40 personas que  participaron en este concurso de emprendimiento. En este evento se reunieron emprendedores y personas de comunidades vulnerables de altos de Cazucá  y  formaron equipos mixtos para proponer ideas de negocio de alto impacto social.</p>	
-	</div>
-	<div class="container">
-		<h3 class="blue-title">Mapes:</h3>
-		<a href="https://mapes.herokuapp.com/"  target="_blank">
-			<img class="proyects-img" src="img/mapes2.jpg" alt="Web Design">
-		</a>		
-		<p>Mapes conecta a productores de sectores populares con socios, mentores e inversionistas, en Mapes encontrarás retos de emprendimiento en los que puedes colaborar aportando ideas  y las mejores podrán ser realizadas conjuntamente con  la persona que propuso este reto volviéndote un socio, un mentor o un inversionista dependiendo de los acuerdos que se realicen entre las personas que colaboren.Mapes permite que muchas ideas de negocio se fortalezcan por medio de la colaboración, se tecnifiquen procesos, se mejore la calidad se diversifiquen productos y se proponga aperturas a nuevos mercados ya que  muchas de las ideas de negocio provienen de sectores populares esto tiene un gran impacto social.
-		El sistema de retos de la plataforma se esta construyendo en Ruby on rails que es un lenguaje de programación que permite construir aplicaciones web, esto permitirá que los usuarios se registren puedan participar o crear retos, tener un perfil y tener diferentes interacciones con otros emprendedores como retroalimentar, votar por sus ideas generar propuestas a los retos entre otros. </p>	
-	</div>
-	<div class="container">
-		<h3 class="blue-title">Se le tiene:</h3>
-		<a href="https://projects.invisionapp.com/share/YC15TDLBM#/screens"  target="_blank">
-			<img class="proyects-img" src="img/se le tiene 3.JPG" alt="Web Design">
-		</a>		
-		<p>Se le tiene es una herramienta que ayuda a personas del común en especial en sectores populares a promover los servicios que ofrecen permitiendo generar un alcance mayor  al público y ser recomendados y promovidos por sus clientes.
-			La propuesta de se le tiene fue construida en la maratón de desarrollo de aplicaciones móviles para la superación de la pobreza extrema organizado por el MinTic y este reto  en especial por DPS que busca aumentar la empleabilidad y la fuente de ingresos de las personas inscritas en sus programas como familias en acción.</p>	
-	</div>
-	<div class="container">
-		<h3 class="blue-title">Andy´s Collect:</h3>
-		<a href="https://www.youtube.com/watch?v=3aTPqYIWcck"  target="_blank">
-			<img class="proyects-img" src="img/andy2.png" alt="Web Design">
-		</a>		
-		<p>Andy's Collect es un juego educativo que fomenta la nutrición saludable  por medio de un personaje que  debe hacer una misión en cada nivel la cual consiste en recolectar ingredientes para completar  una  receta saludable.
-		Para realizar este proyecto aporte mis conocimientos de diseño para elaborar la mecánica del juego, el diseño de interfaces y el  arte como la creación de personajes y escenario. A continuación puedes ver los conceptos  de arte diseñado para este juego.</p>	
-	</div>
-		<div class="container">
-		<h3 class="blue-title">Enlazados:</h3>
-		<a href="http://diegozuluaga88.wixsite.com/diegozuluagabrochure/mapeados"  target="_blank">
-			<img class="proyects-img" src="img/enlazados3.jpg" alt="Web Design">
-		</a>		
-		<p>Enlazados es una plataforma en  desarrollo por Ahmsa Colombia, que permite a los emprendedores de la base de la píramide una experiencia de georeferenciación, donde se registraran  como emprendedores y podrán visibilizarse con el objetivo de involucrase con redes de emprendimiento, posicionar la marca, conseguir mentores aliados y apoyo financiero.</p>	
-	</div>
+
+
+
+<!-- End columns skill section -->
+	<section class="inner-wrapper" id="projects">
+	<h3 id="section-title">PROYECTOS</h3>
+		<article id="tablet">
+			<a href=""><img src="img/link.jpg" alt="hand using ipad"></a>
+		</article>
+		<aside id="tablet2">
+			<a href=""><h2>Link para emprender</h2></a>
+			<p>Por medio de la página web de Link para emprender la organización Ahmsa Colombia, realizó la inscripción y convocatoria de más de 40 personas que participaron en este concurso de emprendimiento. En este evento se reunieron emprendedores y personas de comunidades vulnerables de altos de Cazucá y formaron equipos mixtos para proponer ideas de negocio de alto impacto social.</p>
+		</aside>
 	</section>
-	<section id="contacto">
-		<div class="contenido-destacado">
-		<h2>CONTACTO:</h2>
-		<p><strong>Correo:</strong> diegozuluaga88@gmail.com</p>
-		<p><strong>telefono:</strong> +57 3132816967</p>
-		<p>También puedes contactarme en las siguientes redes sociales:.</p>
-		<div class="social">
-			<a href="https://www.linkedin.com/in/diego-zuluaga-58274259?trk=nav_responsive_tab_profile_pic" class="social" target="blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-			<a href="https://github.com/diegozwolf" class="social" target="blank"><i class="fa fa-github" aria-hidden="true"></i></a>			
-			<a href="https://twitter.com/DiegoZwolf" class="social" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-			<a href="https://www.facebook.com/diego.zuluaga.35" class="social" target="blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>			
-		</div>	
-	</div>	
-</section>
+
+	<section class="inner-wrapper-2">
+		<article id="mobile">
+			<a href="https://mapes.herokuapp.com/" target="blank"><h2>MAPES</h2></a>
+			<p>Mapes conecta a productores de sectores populares con socios, mentores e inversionistas, en Mapes encontrarás retos de emprendimiento en los que puedes colaborar aportando ideas y las mejores serán realizadas conjuntamente con la persona que propuso este reto volviéndote un socio, un mentor o un inversionista Mapes fortalece ideas de negocio  por medio de la colaboración, se tecnificando y profesionalizando procesos.</p>
+		</article>
+		<aside class="hand-mobile"><a href="https://mapes.herokuapp.com/" target="blank"><img src="img/mapes2.jpg" alt="hand using smat phone"></a></aside>
+	</section>
+
+	<section class="inner-wrapper">
+		<article>
+			<a href="https://projects.invisionapp.com/share/YC15TDLBM#/screens" target="blank"><img src="img/seletienea.jpg" alt="aplicación se le tiene"></a>
+		</article>
+		<aside id="desktop">
+		<a href="https://projects.invisionapp.com/share/YC15TDLBM#/screens" target="blank"><h2>Se le tiene</h2></a>
+			<p>Se le tiene es una herramienta que ayuda a personas del común en especial en sectores populares a promover los servicios que ofrecen permitiendo generar un alcance mayor al público y ser recomendados y promovidos por sus clientes. La propuesta de se le tiene fue construida en la maratón de desarrollo de aplicaciones móviles para la superación de la pobreza extrema organizado por el MinTic y este reto en especial por DPS que busca aumentar la empleabilidad y la fuente de ingresos de las personas inscritas en sus programas como familias en acción.</p>
+		</aside>
+	</section>
+	<section class="inner-wrapper-2">
+		<article id="mobile">
+			<a href="https://www.youtube.com/watch?v=3aTPqYIWcck" target="blank"><h2>Andy´s Collect</h2></a>
+			<p>Andy's Collect es un juego educativo que fomenta la nutrición saludable por medio de un personaje que debe hacer una misión en cada nivel la cual consiste en recolectar ingredientes para completar una receta saludable. Para realizar este proyecto aporte mis conocimientos de diseño para elaborar la mecánica del juego, el diseño de interfaces y el arte como la creación de personajes y escenario. A continuación puedes ver los conceptos de arte diseñado para este juego.</p>
+		</article>
+		<aside class="hand-mobile"><a href="https://www.youtube.com/watch?v=3aTPqYIWcck" target="blank"><img src="img/andy2.png" alt="hand using smat phone"></a></aside>
+	</section>
+
+	<section class="inner-wrapper">
+		<article>
+			<a href="http://diegozuluaga88.wixsite.com/diegozuluagabrochure/mapeados" target="blank"><img src="img/enlazados2.jpg" alt="desktop screen"></a>
+		</article>
+		<aside id="desktop">
+		<a href="http://diegozuluaga88.wixsite.com/diegozuluagabrochure/mapeados" target="blank"><h2>Enlazados</h2></a>
+			<p>Enlazados es una plataforma en desarrollo por Ahmsa Colombia, que permite a los emprendedores de la base de la píramide una experiencia de georeferenciación, donde se registraran como emprendedores y podrán visibilizarse con el objetivo de involucrase con redes de emprendimiento, posicionar la marca, conseguir mentores aliados y apoyo financiero.</p>
+		</aside>
+	</section>
+
+	<section class="inner-wrapper-3" id="contact">
+	   <h3 id="section-title">CONTACTO</h3>		
+		<section class="one-third" id="marketing">
+			<a class="icon-contact" href="https://www.facebook.com/diego.zuluaga.35"><i class="fa fa-envelope"></i></a>
+			<h3>Correo</h3>
+			<p class="contact-text">diegozuluaga88@gmail.com</p>
+		</section>
+		<section class="one-third" id="google">
+			<a class="icon-contact" href="https://github.com/diegozwolf" target="blank"><i class="fa fa-github"></i></a>
+			<a href="https://github.com/diegozwolf" target="blank"><h3>Github</h3></a>
+			<a href="https://github.com/diegozwolf" target="blank"><p class="contact-text">https://github.com/diegozwolf</p></a>
+		</section>
+		<section class="one-third" id="customers">
+			<a class="icon-contact" href="#"><i class="fa fa-phone"></i></a>
+			<h3>Teléfono</h3>
+			<p class="contact-text">+57 3132816967</p>
+		</section>
+	</section>
+
 	
-	
+
+	<footer>
+		<ul class="social">
+			<li><a href="https://www.linkedin.com/in/diego-zuluaga-58274259/" target="blank"><i class="fa  fa-linkedin"></i></a></li>
+			<li><a href="https://twitter.com/DiegoZwolf" target="blank"><i class="fa fa-twitter" ></i></a></li>
+			<li><a href="https://www.facebook.com/diego.zuluaga.35" target="blank"><i class="fa fa-facebook" ></i></a></li>		
+		</ul>
+	</footer>
+	<footer class="second">
+		<p>&copy; Diego Zuluaga - 2017</p>
+	</footer>
+
+
+
+ 
 </body>
+</html>
